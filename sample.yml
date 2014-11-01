@@ -1,0 +1,6 @@
+- hosts: localhost
+  user: vagrant
+
+  tasks:
+    - name: "run ansible sample"
+      debug: msg="run ansible!"
